@@ -286,7 +286,7 @@ procedure TFrmMain.btIcms10Click(Sender: TObject);
 var
   LIcms10: IIcms10;
 begin
-  LIcms10 := TIcms10.new.Create({}
+  LIcms10 := TIcms10.new({}
     StrToFloatDef(edValorProduto.Text, 0), {}
     StrToFloatDef(edValorFrete.Text, 0), {}
     StrToFloatDef(edValorSeguro.Text, 0), {}
